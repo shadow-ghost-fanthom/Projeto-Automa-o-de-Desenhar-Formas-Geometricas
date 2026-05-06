@@ -44,17 +44,18 @@ def escolher():
     # Menu principal interativo usando pop-ups do PyAutoGUI
     return pyautogui.confirm(text="Aoba, escolhe ai", title='Aoba', buttons=['Quadrado', 'Triangulo', 'Circulo', 'Sair'])
 
+pyautogui.press('win')             # Abre o menu Iniciar
+time.sleep(1)
+pyautogui.write('Paint', interval=0.1) # Digita o nome do programa
+time.sleep(1)
+pyautogui.press('enter')           # Abre o Paint
+
 # Loop principal do programa
 while True:
     esc = escolher()   
     if esc:
         # Se o usuário não quiser sair, o script prepara o ambiente (Paint)
         if esc != "Sair":
-            pyautogui.press('win')             # Abre o menu Iniciar
-            time.sleep(1)
-            pyautogui.write('Paint', interval=0.1) # Digita o nome do programa
-            time.sleep(1)
-            pyautogui.press('enter')           # Abre o Paint
             valor_tamanho = tamanho()          # Pergunta o tamanho do desenho
             
         # Verifica qual opção foi clicada e executa a função correspondente
