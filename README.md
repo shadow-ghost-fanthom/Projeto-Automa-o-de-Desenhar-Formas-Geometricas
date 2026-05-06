@@ -1,4 +1,4 @@
-Script em Python que automatiza o desenho de formas geométricas no Microsoft Paint usando a biblioteca PyAutoGUI.
+# Script em Python que automatiza o desenho de formas geométricas no Microsoft Paint usando a biblioteca PyAutoGUI.
 
 🛠️ O que ele faz:
 Automação completa: Abre o Paint sozinho pelo menu Iniciar.
