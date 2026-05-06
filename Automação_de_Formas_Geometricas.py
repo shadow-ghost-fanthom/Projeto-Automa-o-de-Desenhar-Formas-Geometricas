@@ -54,7 +54,6 @@ pyautogui.press('enter')           # Abre o Paint
 while True:
     esc = escolher()   
     if esc:
-        # Se o usuário não quiser sair, o script prepara o ambiente (Paint)
         if esc != "Sair":
             valor_tamanho = tamanho()          # Pergunta o tamanho do desenho
             
