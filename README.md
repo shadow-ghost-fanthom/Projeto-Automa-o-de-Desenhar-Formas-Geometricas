@@ -12,6 +12,9 @@ PyAutoGUI (Automação de interface)
 Math (Cálculos geométricos)
 
 📖 Como rodar:
-Instale a biblioteca: pip install pyautogui
+Instale a biblioteca:
+```bash
+pip install pyautogui
+```
 Execute o script e escolha a forma no menu.
 Deixe o robô trabalhar!
